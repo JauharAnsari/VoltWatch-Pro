@@ -31,7 +31,7 @@ VoltWatch is a high-fidelity Android application designed to provide users with 
 
 - `POST_NOTIFICATIONS`: For battery level alerts (Android 13+).
 - `VIBRATE`: For haptic feedback on plug-in events.
-- `RECEIVE_BOOT_COMPLETED`: (Optional) To resume monitoring after device restart.
+- `RECEIVE_BOOT_COMPLETED`:  To resume monitoring after device restart.
 
 ## 🚀 Getting Started
 
