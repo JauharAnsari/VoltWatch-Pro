@@ -2,6 +2,11 @@
 
 VoltWatch is a high-fidelity Android application designed to provide users with real-time battery insights, persistent logging, and customizable alerts. Built with modern Android technologies, it offers a sleek, glassmorphic UI and robust background services.
 
+
+## 📥 Download App
+
+👉 **[Download VoltWatch APK](https://drive.google.com/file/d/1MwAM-QuQEIn0ekfnLfUtTZ__wtxqnFDD/view?usp=drivesdk)**  
+
 ---
 
 ## ✨ Features
