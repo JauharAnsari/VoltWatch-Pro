@@ -2,61 +2,75 @@
 
 VoltWatch is a high-fidelity Android application designed to provide users with real-time battery insights, persistent logging, and customizable alerts. Built with modern Android technologies, it offers a sleek, glassmorphic UI and robust background services.
 
+---
+
 ## ✨ Features
 
-- **Real-Time Monitoring**: Track battery level, temperature, voltage, and health with instant updates.
-- **Custom Alert System**: 
-    - Set target battery percentages for notifications.
-    - Robust detection logic handles exact hits and level crossings.
-    - Works in both charging and discharging modes.
-- **Battery Analytics**:
-    - Automatic history logging every 15 minutes.
-    - Detailed charging speed estimation.
-    - Estimates for time-to-full charge.
-- **Premium UI/UX**:
-    - Modern Dark Mode design.
-    - Glassmorphic UI components.
-    - Interactive 4-color gradient circular progress meter.
-- **Background Redundancy**: Uses WorkManager to ensure battery data is logged and alerts are checked even when the app is closed.
+- **Real-Time Monitoring**: Track battery level, temperature, voltage, and health with instant updates.  
+- **Custom Alert System**:  
+  - Set target battery percentages for notifications  
+  - Handles exact hits and level crossings  
+  - Works in charging & discharging modes  
+- **Battery Analytics**:  
+  - Logs history every 15 minutes  
+  - Charging speed estimation  
+  - Time-to-full estimates  
+- **Premium UI/UX**:  
+  - Dark mode  
+  - Glassmorphic UI  
+  - Gradient circular progress meter  
+- **Background Support**: Uses WorkManager even when app is closed  
 
-## 🛠️ Technology Stack
+---
 
-- **UI**: [Jetpack Compose](https://developer.android.com/jetpack/compose) for a modern, declarative UI.
-- **Database**: [Room Persistence Library](https://developer.android.com/training/data-storage/room) for battery history storage.
-- **Background Tasks**: [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager) for reliable background execution.
-- **State Management**: Kotlin Coroutines & Flow with ViewModel (MVVM Architecture).
-- **Styling**: Material 3 with custom glassmorphism and gradient effects.
+## 🛠️ Tech Stack
+
+- Jetpack Compose  
+- Room Database  
+- WorkManager  
+- Kotlin Coroutines & Flow (MVVM)  
+- Material 3  
+
+---
 
 ## 📱 Permissions
 
-- `POST_NOTIFICATIONS`: For battery level alerts (Android 13+).
-- `VIBRATE`: For haptic feedback on plug-in events.
-- `RECEIVE_BOOT_COMPLETED`:  To resume monitoring after device restart.
+- `POST_NOTIFICATIONS`  
+- `VIBRATE`  
+- `RECEIVE_BOOT_COMPLETED`  
+
+---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/JauharAnsari/VoltWatch.git
-   ```
-2. **Open in Android Studio**:
-   Ensure you have the latest version of Android Studio (Koala or newer).
-3. **Build & Run**:
-   Select your device and click **Run**.
-4. **Enable Alerts**:
-   - Go to the Alert Card.
-   - Set your target percentage.
-   - Toggle "Alert System" ON and grant notification permissions.
+```bash
+git clone https://github.com/JauharAnsari/VoltWatch.git
+```
+
+Open in Android Studio → Run app → Enable alerts
+
+---
 
 ## 📸 Screenshots
 
-| Monitor Screen | History Screen | Alert System |
-| :---: | :---: | :---: |
-| ![Monitor](https://via.placeholder.com/300x600?text=Battery+Monitor) | ![History](https://via.placeholder.com/300x600?text=Battery+History) | ![Alerts](https://via.placeholder.com/300x600?text=Custom+Alerts) |
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/6efce49d-d67e-48d8-96f4-6fe4a8d40ab5" width="230"/>
+  <img src="https://github.com/user-attachments/assets/2ab47631-4050-4153-9d95-35079083bfb9" width="230"/>
+</p>
 
-## 🛡️ License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+<p align="center">
+  <b>Monitor Screen</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <b>Analytics / Alerts</b>
+</p>
 
 ---
-*Developed with ❤️ by Jauhar Ansari*
+
+## 👨‍💻 Developer
+
+Jauhar Ansari  
+
+---
+
+<p align="center">
+  Made with ❤️ using Kotlin
+</p>
