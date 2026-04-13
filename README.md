@@ -1,4 +1,4 @@
-# VoltWatch - Premium Battery Monitoring & Alert System
+# VoltWatch Pro - Premium Battery Monitoring & Alert System
 
 VoltWatch is a high-fidelity Android application designed to provide users with real-time battery insights, persistent logging, and customizable alerts. Built with modern Android technologies, it offers a sleek, glassmorphic UI and robust background services.
 
